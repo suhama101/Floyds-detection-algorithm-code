@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-o",
+                "cycle_experiment",  // Output executable name
+                "main.cpp",           // Your main file
+                "cycle_experiment.cpp",  // Additional files
+                "fixed_offset_experiment.cpp",
+                "random_offset_experiment.cpp"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"]
+        }
+    ]
+}

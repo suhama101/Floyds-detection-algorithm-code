@@ -1,0 +1,17 @@
+VS CODE  :     task .json file.
+
+
+cycle experiment.cpp  :  create linklist, create cycle, detect cycle , write result to CSV file, delete linklist.
+cycle experiment.h    : node structure for linklist,  function declaration .
+fixed offset experiment. cpp   : all code of fixed
+random offset experiment.csv    :   all code of csv.
+main .cpp    :  values of small , medium ,large , extra large.  Some code OF  CSV with fixed and random offset
+
+
+cycle experiment.exe  :   not open .
+my project.exe   :  not open.
+
+fixed offset result .csv      :    output result.
+random offset result.csv   :  output result
+final:  output of all data
+

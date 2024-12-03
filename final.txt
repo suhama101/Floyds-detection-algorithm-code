@@ -1,0 +1,669 @@
+
+  EVEN VALUES
+// SMALL VALUES
+vector<int> listSizes={100,200,300}; 
+vector<int> cycleLengths = {10,15,20}; 
+vector<int> fixedCycleStarts = {20,50,100}; 
+
+Experiment Type,List Size,Cycle Start,Cycle Length,Steps,Execution Time (microseconds)
+Fixed Offset,100,20,10,50,0
+Fixed Offset,100,20,15,50,0
+Fixed Offset,100,20,20,50,0
+Fixed Offset,200,20,10,100,0
+Fixed Offset,200,20,15,100,0
+Fixed Offset,200,20,20,100,0
+Fixed Offset,300,20,10,150,0
+Fixed Offset,300,20,15,150,0
+Fixed Offset,300,20,20,150,0
+Fixed Offset,100,50,10,50,0
+Fixed Offset,100,50,15,50,0
+Fixed Offset,100,50,20,50,0
+Fixed Offset,200,50,10,100,0
+Fixed Offset,200,50,15,100,0
+Fixed Offset,200,50,20,100,0
+Fixed Offset,300,50,10,150,0
+Fixed Offset,300,50,15,150,0
+Fixed Offset,300,50,20,150,0
+Fixed Offset,100,100,10,50,0
+Fixed Offset,100,100,15,50,0
+Fixed Offset,100,100,20,50,0
+Fixed Offset,200,100,10,100,0
+Fixed Offset,200,100,15,100,0
+Fixed Offset,200,100,20,100,0
+Fixed Offset,300,100,10,150,0
+Fixed Offset,300,100,15,150,0
+Fixed Offset,300,100,20,150,0
+
+Experiment Type,List Size,Cycle Start,Cycle Length,Steps,Execution Time (microseconds)
+Random Offset,100,77,10,50,0
+Random Offset,100,64,15,50,0
+Random Offset,100,99,20,50,0
+Random Offset,200,163,10,100,0
+Random Offset,200,132,15,100,0
+Random Offset,200,191,20,100,0
+Random Offset,300,299,10,150,0
+Random Offset,300,248,15,150,0
+Random Offset,300,37,20,150,0
+Random Offset,100,77,10,50,0
+Random Offset,100,64,15,50,0
+Random Offset,100,99,20,50,0
+Random Offset,200,163,10,100,0
+Random Offset,200,132,15,100,0
+Random Offset,200,191,20,100,0
+Random Offset,300,299,10,150,0
+Random Offset,300,248,15,150,0
+Random Offset,300,37,20,150,0
+Random Offset,100,77,10,50,0
+Random Offset,100,64,15,50,0
+Random Offset,100,99,20,50,0
+Random Offset,200,163,10,100,0
+Random Offset,200,132,15,100,0
+Random Offset,200,191,20,100,0
+Random Offset,300,299,10,150,0
+Random Offset,300,248,15,150,0
+Random Offset,300,37,20,150,0
+Random Offset,100,77,10,50,0
+Random Offset,100,64,15,50,0
+Random Offset,100,99,20,50,0
+Random Offset,200,163,10,100,0
+Random Offset,200,132,15,100,0
+Random Offset,200,191,20,100,0
+Random Offset,300,299,10,150,0
+Random Offset,300,248,15,150,0
+Random Offset,300,37,20,150,0
+Random Offset,100,77,10,50,0
+Random Offset,100,64,15,50,0
+Random Offset,100,99,20,50,0
+Random Offset,200,163,10,100,0
+Random Offset,200,132,15,100,0
+Random Offset,200,191,20,100,0
+Random Offset,300,299,10,150,0
+Random Offset,300,248,15,150,0
+Random Offset,300,37,20,150,0
+
+//  MEDIUM VALUES
+vector<int> listSizes={1000, 2000, 3000};
+vector<int> cycleLengths = {50,75,100}; 
+vector<int> fixedCycleStarts = {200,500,1000};  
+
+Experiment Type,List Size,Cycle Start,Cycle Length,Steps,Execution Time (microseconds)
+Fixed Offset,1000,200,50,500,0
+Fixed Offset,1000,200,75,500,0
+Fixed Offset,1000,200,100,500,0
+Fixed Offset,2000,200,50,1000,0
+Fixed Offset,2000,200,75,1000,0
+Fixed Offset,2000,200,100,1000,0
+Fixed Offset,3000,200,50,1500,0
+Fixed Offset,3000,200,75,1500,0
+Fixed Offset,3000,200,100,1500,0
+Fixed Offset,1000,500,50,500,0
+Fixed Offset,1000,500,75,500,0
+Fixed Offset,1000,500,100,500,0
+Fixed Offset,2000,500,50,1000,0
+Fixed Offset,2000,500,75,1000,0
+Fixed Offset,2000,500,100,1000,0
+Fixed Offset,3000,500,50,1500,0
+Fixed Offset,3000,500,75,1500,0
+Fixed Offset,3000,500,100,1500,0
+Fixed Offset,1000,1000,50,500,0
+Fixed Offset,1000,1000,75,500,0
+Fixed Offset,1000,1000,100,500,0
+Fixed Offset,2000,1000,50,1000,0
+Fixed Offset,2000,1000,75,1000,0
+Fixed Offset,2000,1000,100,1000,0
+Fixed Offset,3000,1000,50,1500,0
+Fixed Offset,3000,1000,75,1500,0
+Fixed Offset,3000,1000,100,1500,0
+
+Experiment Type,List Size,Cycle Start,Cycle Length,Steps,Execution Time (microseconds)
+Random Offset,1000,31,50,500,0
+Random Offset,1000,383,75,500,0
+Random Offset,1000,898,100,500,0
+Random Offset,2000,29,50,1000,0
+Random Offset,2000,216,75,1000,0
+Random Offset,2000,528,100,1000,0
+Random Offset,3000,1455,50,1500,0
+Random Offset,3000,1132,75,1500,0
+Random Offset,3000,2670,100,1500,0
+Random Offset,1000,31,50,500,0
+Random Offset,1000,383,75,500,0
+Random Offset,1000,898,100,500,0
+Random Offset,2000,29,50,1000,0
+Random Offset,2000,216,75,1000,0
+Random Offset,2000,528,100,1000,0
+Random Offset,3000,1455,50,1500,0
+Random Offset,3000,1132,75,1500,0
+Random Offset,3000,2670,100,1500,0
+Random Offset,1000,31,50,500,0
+Random Offset,1000,383,75,500,0
+Random Offset,1000,898,100,500,0
+Random Offset,2000,29,50,1000,0
+Random Offset,2000,216,75,1000,0
+Random Offset,2000,528,100,1000,0
+Random Offset,3000,1455,50,1500,0
+Random Offset,3000,1132,75,1500,0
+Random Offset,3000,2670,100,1500,0
+Random Offset,1000,31,50,500,0
+Random Offset,1000,383,75,500,0
+Random Offset,1000,898,100,500,0
+Random Offset,2000,29,50,1000,0
+Random Offset,2000,216,75,1000,0
+Random Offset,2000,528,100,1000,0
+Random Offset,3000,1455,50,1500,0
+Random Offset,3000,1132,75,1500,0
+Random Offset,3000,2670,100,1500,0
+Random Offset,1000,35,50,500,0
+Random Offset,1000,131,75,500,0
+Random Offset,1000,994,100,500,0
+Random Offset,2000,1325,50,1000,0
+Random Offset,2000,530,75,1000,0
+Random Offset,2000,455,100,1000,0
+Random Offset,3000,1567,50,1500,0
+Random Offset,3000,1204,75,1500,0
+Random Offset,3000,1182,100,1500,0
+
+// LARGE VALUES
+vector<int> listSizes={10000, 20000, 30000};
+vector<int> cycleLengths = {200,300,400}; 
+vector<int> fixedCycleStarts = {2500, 5000, 7500};
+
+Experiment Type,List Size,Cycle Start,Cycle Length,Steps,Execution Time (microseconds)
+Fixed Offset,10000,2500,200,5000,0
+Fixed Offset,10000,2500,300,5000,0
+Fixed Offset,10000,2500,400,5000,0
+Fixed Offset,20000,2500,200,10000,0
+Fixed Offset,20000,2500,300,10000,0
+Fixed Offset,20000,2500,400,10000,0
+Fixed Offset,30000,2500,200,15000,0
+Fixed Offset,30000,2500,300,15000,0
+Fixed Offset,30000,2500,400,15000,0
+Fixed Offset,10000,5000,200,5000,0
+Fixed Offset,10000,5000,300,5000,0
+Fixed Offset,10000,5000,400,5000,0
+Fixed Offset,20000,5000,200,10000,0
+Fixed Offset,20000,5000,300,10000,0
+Fixed Offset,20000,5000,400,10000,0
+Fixed Offset,30000,5000,200,15000,0
+Fixed Offset,30000,5000,300,15000,0
+Fixed Offset,30000,5000,400,15000,0
+Fixed Offset,10000,7500,200,5000,0
+Fixed Offset,10000,7500,300,5000,0
+Fixed Offset,10000,7500,400,5000,0
+Fixed Offset,20000,7500,200,10000,0
+Fixed Offset,20000,7500,300,10000,0
+Fixed Offset,20000,7500,400,10000,0
+Fixed Offset,30000,7500,200,15000,0
+Fixed Offset,30000,7500,300,15000,0
+Fixed Offset,30000,7500,400,15000,0
+
+Experiment Type,List Size,Cycle Start,Cycle Length,Steps,Execution Time (microseconds)
+Random Offset,10000,9096,200,5000,0
+Random Offset,10000,1956,300,5000,0
+Random Offset,10000,7914,400,5000,0
+Random Offset,20000,10350,200,10000,0
+Random Offset,20000,8431,300,10000,0
+Random Offset,20000,6690,400,10000,0
+Random Offset,30000,306,200,15000,0
+Random Offset,30000,9112,300,15000,0
+Random Offset,30000,17497,400,15000,0
+Random Offset,10000,9096,200,5000,0
+Random Offset,10000,1956,300,5000,15623
+Random Offset,10000,7914,400,5000,0
+Random Offset,20000,10350,200,10000,0
+Random Offset,20000,8431,300,10000,0
+Random Offset,20000,6690,400,10000,0
+Random Offset,30000,306,200,15000,0
+Random Offset,30000,9112,300,15000,0
+Random Offset,30000,17497,400,15000,0
+Random Offset,10000,9099,200,5000,0
+Random Offset,10000,9936,300,5000,0
+Random Offset,10000,3010,400,5000,0
+Random Offset,20000,1645,200,10000,0
+Random Offset,20000,5978,300,10000,0
+Random Offset,20000,10617,400,10000,0
+Random Offset,30000,3418,200,15000,0
+Random Offset,30000,6185,300,15000,0
+Random Offset,30000,1240,400,15000,0
+Random Offset,10000,9099,200,5000,0
+Random Offset,10000,9936,300,5000,0
+Random Offset,10000,3010,400,5000,0
+Random Offset,20000,1645,200,10000,0
+Random Offset,20000,5978,300,10000,0
+Random Offset,20000,10617,400,10000,0
+Random Offset,30000,3418,200,15000,0
+Random Offset,30000,6185,300,15000,0
+Random Offset,30000,1240,400,15000,0
+Random Offset,10000,9099,200,5000,0
+Random Offset,10000,9936,300,5000,0
+Random Offset,10000,3010,400,5000,0
+Random Offset,20000,1645,200,10000,0
+Random Offset,20000,5978,300,10000,0
+Random Offset,20000,10617,400,10000,0
+Random Offset,30000,3418,200,15000,0
+Random Offset,30000,6185,300,15000,0
+Random Offset,30000,1240,400,15000,0
+
+// EXTRA LARGE
+vector<int> listSizes={100000, 200000,300000};
+vector<int> cycleLengths = {1000, 2000,5000}; 
+vector<int> fixedCycleStarts = {25000,50000,100000};
+
+Experiment Type,List Size,Cycle Start,Cycle Length,Steps,Execution Time (microseconds)
+Fixed Offset,100000,25000,1000,50000,0
+Fixed Offset,100000,25000,2000,50000,0
+Fixed Offset,100000,25000,5000,50000,0
+Fixed Offset,200000,25000,1000,100000,0
+Fixed Offset,200000,25000,2000,100000,0
+Fixed Offset,200000,25000,5000,100000,0
+Fixed Offset,300000,25000,1000,150000,15630
+Fixed Offset,300000,25000,2000,150000,0
+Fixed Offset,300000,25000,5000,150000,0
+Fixed Offset,100000,50000,1000,50000,0
+Fixed Offset,100000,50000,2000,50000,0
+Fixed Offset,100000,50000,5000,50000,0
+Fixed Offset,200000,50000,1000,100000,0
+Fixed Offset,200000,50000,2000,100000,0
+Fixed Offset,200000,50000,5000,100000,0
+Fixed Offset,300000,50000,1000,150000,0
+Fixed Offset,300000,50000,2000,150000,0
+Fixed Offset,300000,50000,5000,150000,0
+Fixed Offset,100000,100000,1000,50000,0
+Fixed Offset,100000,100000,2000,50000,0
+Fixed Offset,100000,100000,5000,50000,0
+Fixed Offset,200000,100000,1000,100000,0
+Fixed Offset,200000,100000,2000,100000,0
+Fixed Offset,200000,100000,5000,100000,0
+Fixed Offset,300000,100000,1000,150000,0
+Fixed Offset,300000,100000,2000,150000,0
+Fixed Offset,300000,100000,5000,150000,0
+
+Experiment Type,List Size,Cycle Start,Cycle Length,Steps,Execution Time (microseconds)
+Random Offset,100000,20037,1000,50000,0
+Random Offset,100000,14537,2000,50000,0
+Random Offset,100000,18219,5000,50000,0
+Random Offset,200000,26536,1000,100000,0
+Random Offset,200000,17140,2000,100000,0
+Random Offset,200000,23477,5000,100000,0
+Random Offset,300000,11955,1000,150000,0
+Random Offset,300000,18025,2000,150000,0
+Random Offset,300000,21475,5000,150000,0
+Random Offset,100000,20040,1000,50000,0
+Random Offset,100000,25285,2000,50000,0
+Random Offset,100000,3315,5000,50000,0
+Random Offset,200000,17831,1000,100000,0
+Random Offset,200000,27455,2000,100000,0
+Random Offset,200000,27403,5000,100000,0
+Random Offset,300000,15068,1000,150000,0
+Random Offset,300000,15098,2000,150000,0
+Random Offset,300000,5218,5000,150000,15622
+Random Offset,100000,20040,1000,50000,0
+Random Offset,100000,25285,2000,50000,0
+Random Offset,100000,3315,5000,50000,0
+Random Offset,200000,17831,1000,100000,0
+Random Offset,200000,27455,2000,100000,0
+Random Offset,200000,27403,5000,100000,0
+Random Offset,300000,15068,1000,150000,0
+Random Offset,300000,15098,2000,150000,0
+Random Offset,300000,5218,5000,150000,0
+Random Offset,100000,20040,1000,50000,0
+Random Offset,100000,25285,2000,50000,0
+Random Offset,100000,3315,5000,50000,0
+Random Offset,200000,17831,1000,100000,0
+Random Offset,200000,27455,2000,100000,0
+Random Offset,200000,27403,5000,100000,0
+Random Offset,300000,15068,1000,150000,0
+Random Offset,300000,15098,2000,150000,0
+Random Offset,300000,5218,5000,150000,0
+Random Offset,100000,20043,1000,50000,0
+Random Offset,100000,3265,2000,50000,0
+Random Offset,100000,21179,5000,50000,0
+Random Offset,200000,9127,1000,100000,0
+Random Offset,200000,5002,2000,100000,0
+Random Offset,200000,31330,5000,100000,0
+Random Offset,300000,18180,1000,150000,0
+Random Offset,300000,12170,2000,150000,0
+Random Offset,300000,21730,5000,150000,0
+
+
+          ODD VALUES
+
+     // SMALL VALUES
+vector<int> listSizes = {33, 199, 301}; 
+vector<int> cycleLengths = {9, 15, 21}; 
+vector<int> fixedCycleStarts = {10, 20, 30}; 
+
+
+Experiment Type,List Size,Cycle Start,Cycle Length,Steps,Execution Time (microseconds)
+Fixed Offset,33,10,9,16,0
+Fixed Offset,33,10,15,16,0
+Fixed Offset,33,10,21,16,0
+Fixed Offset,199,10,9,99,0
+Fixed Offset,199,10,15,99,0
+Fixed Offset,199,10,21,99,0
+Fixed Offset,301,10,9,150,0
+Fixed Offset,301,10,15,150,0
+Fixed Offset,301,10,21,150,0
+Fixed Offset,33,20,9,16,0
+Fixed Offset,33,20,15,16,0
+Fixed Offset,33,20,21,16,0
+Fixed Offset,199,20,9,99,0
+Fixed Offset,199,20,15,99,0
+Fixed Offset,199,20,21,99,0
+Fixed Offset,301,20,9,150,0
+Fixed Offset,301,20,15,150,0
+Fixed Offset,301,20,21,150,0
+Fixed Offset,33,30,9,16,0
+Fixed Offset,33,30,15,16,0
+Fixed Offset,33,30,21,16,0
+Fixed Offset,199,30,9,99,0
+Fixed Offset,199,30,15,99,0
+Fixed Offset,199,30,21,99,0
+Fixed Offset,301,30,9,150,0
+Fixed Offset,301,30,15,150,0
+Fixed Offset,301,30,21,150,0
+
+
+Experiment Type,List Size,Cycle Start,Cycle Length,Steps,Execution Time (microseconds)
+Random Offset,33,16,9,16,0
+Random Offset,33,16,15,16,0
+Random Offset,33,14,21,16,0
+Random Offset,199,55,9,99,0
+Random Offset,199,1,15,99,0
+Random Offset,199,53,21,99,0
+Random Offset,301,241,9,150,0
+Random Offset,301,79,15,150,0
+Random Offset,301,171,21,150,0
+Random Offset,33,16,9,16,0
+Random Offset,33,16,15,16,0
+Random Offset,33,14,21,16,0
+Random Offset,199,55,9,99,0
+Random Offset,199,1,15,99,0
+Random Offset,199,53,21,99,0
+Random Offset,301,241,9,150,0
+Random Offset,301,79,15,150,0
+Random Offset,301,171,21,150,0
+Random Offset,33,16,9,16,0
+Random Offset,33,16,15,16,0
+Random Offset,33,14,21,16,0
+Random Offset,199,55,9,99,0
+Random Offset,199,1,15,99,0
+Random Offset,199,53,21,99,0
+Random Offset,301,241,9,150,0
+Random Offset,301,79,15,150,0
+Random Offset,301,171,21,150,0
+Random Offset,33,16,9,16,0
+Random Offset,33,16,15,16,0
+Random Offset,33,14,21,16,0
+Random Offset,199,55,9,99,0
+Random Offset,199,1,15,99,0
+Random Offset,199,53,21,99,0
+Random Offset,301,241,9,150,0
+Random Offset,301,79,15,150,0
+Random Offset,301,171,21,150,0
+Random Offset,33,16,9,16,0
+Random Offset,33,16,15,16,0
+Random Offset,33,14,21,16,0
+Random Offset,199,55,9,99,0
+Random Offset,199,1,15,99,0
+Random Offset,199,53,21,99,0
+Random Offset,301,241,9,150,0
+Random Offset,301,79,15,150,0
+Random Offset,301,171,21,150,0
+
+
+//  MEDIUM VALUES
+// vector<int> listSizes = {355, 2001, 3001};
+// vector<int> cycleLengths = {49, 75, 101}; 
+// vector<int> fixedCycleStarts = {100, 300, 350};
+
+
+Experiment Type,List Size,Cycle Start,Cycle Length,Steps,Execution Time (microseconds)
+Fixed Offset,355,100,49,177,0
+Fixed Offset,355,100,75,177,0
+Fixed Offset,355,100,101,177,0
+Fixed Offset,2001,100,49,1000,0
+Fixed Offset,2001,100,75,1000,0
+Fixed Offset,2001,100,101,1000,0
+Fixed Offset,3001,100,49,1500,0
+Fixed Offset,3001,100,75,1500,0
+Fixed Offset,3001,100,101,1500,0
+Fixed Offset,355,300,49,177,0
+Fixed Offset,355,300,75,177,0
+Fixed Offset,355,300,101,177,0
+Fixed Offset,2001,300,49,1000,0
+Fixed Offset,2001,300,75,1000,0
+Fixed Offset,2001,300,101,1000,0
+Fixed Offset,3001,300,49,1500,0
+Fixed Offset,3001,300,75,1500,0
+Fixed Offset,3001,300,101,1500,0
+Fixed Offset,355,350,49,177,0
+Fixed Offset,355,350,75,177,0
+Fixed Offset,355,350,101,177,0
+Fixed Offset,2001,350,49,1000,0
+Fixed Offset,2001,350,75,1000,51
+Fixed Offset,2001,350,101,1000,0
+Fixed Offset,3001,350,49,1500,0
+Fixed Offset,3001,350,75,1500,0
+Fixed Offset,3001,350,101,1500,0
+
+
+Experiment Type,List Size,Cycle Start,Cycle Length,Steps,Execution Time (microseconds)
+Random Offset,355,313,49,177,0
+Random Offset,355,9,75,177,0
+Random Offset,355,120,101,177,0
+Random Offset,2001,716,49,1000,0
+Random Offset,2001,532,75,1000,0
+Random Offset,2001,1748,101,1000,0
+Random Offset,3001,2335,49,1500,0
+Random Offset,3001,392,75,1500,0
+Random Offset,3001,2232,101,1500,0
+Random Offset,355,313,49,177,0
+Random Offset,355,9,75,177,0
+Random Offset,355,120,101,177,0
+Random Offset,2001,716,49,1000,0
+Random Offset,2001,532,75,1000,0
+Random Offset,2001,1748,101,1000,0
+Random Offset,3001,2335,49,1500,0
+Random Offset,3001,392,75,1500,0
+Random Offset,3001,2232,101,1500,0
+Random Offset,355,313,49,177,0
+Random Offset,355,9,75,177,0
+Random Offset,355,120,101,177,0
+Random Offset,2001,716,49,1000,0
+Random Offset,2001,532,75,1000,0
+Random Offset,2001,1748,101,1000,0
+Random Offset,3001,2335,49,1500,0
+Random Offset,3001,392,75,1500,0
+Random Offset,3001,2232,101,1500,0
+Random Offset,355,313,49,177,0
+Random Offset,355,9,75,177,0
+Random Offset,355,120,101,177,0
+Random Offset,2001,716,49,1000,0
+Random Offset,2001,532,75,1000,0
+Random Offset,2001,1748,101,1000,0
+Random Offset,3001,2335,49,1500,0
+Random Offset,3001,392,75,1500,0
+Random Offset,3001,2232,101,1500,0
+Random Offset,355,313,49,177,0
+Random Offset,355,9,75,177,0
+Random Offset,355,120,101,177,0
+Random Offset,2001,716,49,1000,0
+Random Offset,2001,532,75,1000,0
+Random Offset,2001,1748,101,1000,0
+Random Offset,3001,2335,49,1500,0
+Random Offset,3001,392,75,1500,0
+Random Offset,3001,2232,101,1500,0
+
+
+ //   LARGE VALUES
+// vector<int> listSizes = {22001, 20003, 30007};
+// vector<int> cycleLengths = {199, 301, 401}; 
+// vector<int> fixedCycleStarts = {2000, 5000, 7000};
+
+
+Experiment Type,List Size,Cycle Start,Cycle Length,Steps,Execution Time (microseconds)
+Fixed Offset,22001,2000,199,11000,0
+Fixed Offset,22001,2000,301,11000,0
+Fixed Offset,22001,2000,401,11000,0
+Fixed Offset,20003,2000,199,10001,0
+Fixed Offset,20003,2000,301,10001,0
+Fixed Offset,20003,2000,401,10001,0
+Fixed Offset,30007,2000,199,15003,0
+Fixed Offset,30007,2000,301,15003,0
+Fixed Offset,30007,2000,401,15003,0
+Fixed Offset,22001,5000,199,11000,0
+Fixed Offset,22001,5000,301,11000,999
+Fixed Offset,22001,5000,401,11000,0
+Fixed Offset,20003,5000,199,10001,0
+Fixed Offset,20003,5000,301,10001,1000
+Fixed Offset,20003,5000,401,10001,0
+Fixed Offset,30007,5000,199,15003,0
+Fixed Offset,30007,5000,301,15003,0
+Fixed Offset,30007,5000,401,15003,0
+Fixed Offset,22001,7000,199,11000,0
+Fixed Offset,22001,7000,301,11000,0
+Fixed Offset,22001,7000,401,11000,0
+Fixed Offset,20003,7000,199,10001,0
+Fixed Offset,20003,7000,301,10001,999
+Fixed Offset,20003,7000,401,10001,0
+Fixed Offset,30007,7000,199,15003,0
+Fixed Offset,30007,7000,301,15003,1000
+Fixed Offset,30007,7000,401,15003,0
+
+
+Experiment Type,List Size,Cycle Start,Cycle Length,Steps,Execution Time (microseconds)
+Random Offset,22001,7242,199,11000,1000
+Random Offset,22001,1431,301,11000,0
+Random Offset,22001,5333,401,11000,0
+Random Offset,20003,6235,199,10001,0
+Random Offset,20003,502,301,10001,0
+Random Offset,20003,4303,401,10001,0
+Random Offset,30007,18611,199,15003,999
+Random Offset,30007,23916,301,15003,0
+Random Offset,30007,27908,401,15003,1002
+Random Offset,22001,7245,199,11000,0
+Random Offset,22001,12179,301,11000,0
+Random Offset,22001,1196,401,11000,0
+Random Offset,20003,10295,199,10001,0
+Random Offset,20003,10817,301,10001,0
+Random Offset,20003,8230,401,10001,0
+Random Offset,30007,21723,199,15003,0
+Random Offset,30007,20989,301,15003,999
+Random Offset,30007,11651,401,15003,0
+Random Offset,22001,7245,199,11000,0
+Random Offset,22001,12179,301,11000,0
+Random Offset,22001,1196,401,11000,0
+Random Offset,20003,10295,199,10001,0
+Random Offset,20003,10817,301,10001,0
+Random Offset,20003,8230,401,10001,0
+Random Offset,30007,21723,199,15003,0
+Random Offset,30007,20989,301,15003,0
+Random Offset,30007,11651,401,15003,0
+Random Offset,22001,7245,199,11000,0
+Random Offset,22001,12179,301,11000,0
+Random Offset,22001,1196,401,11000,0
+Random Offset,20003,10295,199,10001,0
+Random Offset,20003,10817,301,10001,999
+Random Offset,20003,8230,401,10001,0
+Random Offset,30007,21723,199,15003,0
+Random Offset,30007,20989,301,15003,0
+Random Offset,30007,11651,401,15003,0
+Random Offset,22001,7245,199,11000,1018
+Random Offset,22001,12179,301,11000,0
+Random Offset,22001,1196,401,11000,0
+Random Offset,20003,10295,199,10001,0
+Random Offset,20003,10817,301,10001,0
+Random Offset,20003,8230,401,10001,0
+Random Offset,30007,21723,199,15003,999
+Random Offset,30007,20989,301,15003,0
+Random Offset,30007,11651,401,15003,0
+
+
+       // EXTRA LARGE
+// vector<int> listSizes = {100001, 200003, 300011};
+// vector<int> cycleLengths = {1001, 2001, 5001}; 
+// vector<int> fixedCycleStarts = {25000, 50000, 75000}; 
+
+
+Experiment Type,List Size,Cycle Start,Cycle Length,Steps,Execution Time (microseconds)
+Fixed Offset,100001,25000,1001,50000,0
+Fixed Offset,100001,25000,2001,50000,998
+Fixed Offset,100001,25000,5001,50000,0
+Fixed Offset,200003,25000,1001,100001,999
+Fixed Offset,200003,25000,2001,100001,1000
+Fixed Offset,200003,25000,5001,100001,1000
+Fixed Offset,300011,25000,1001,150005,1000
+Fixed Offset,300011,25000,2001,150005,2000
+Fixed Offset,300011,25000,5001,150005,999
+Fixed Offset,100001,50000,1001,50000,0
+Fixed Offset,100001,50000,2001,50000,0
+Fixed Offset,100001,50000,5001,50000,0
+Fixed Offset,200003,50000,1001,100001,0
+Fixed Offset,200003,50000,2001,100001,1001
+Fixed Offset,200003,50000,5001,100001,1000
+Fixed Offset,300011,50000,1001,150005,1000
+Fixed Offset,300011,50000,2001,150005,2004
+Fixed Offset,300011,50000,5001,150005,1004
+Fixed Offset,100001,75000,1001,50000,0
+Fixed Offset,100001,75000,2001,50000,0
+Fixed Offset,100001,75000,5001,50000,999
+Fixed Offset,200003,75000,1001,100001,1001
+Fixed Offset,200003,75000,2001,100001,2011
+Fixed Offset,200003,75000,5001,100001,1001
+Fixed Offset,300011,75000,1001,150005,1001
+Fixed Offset,300011,75000,2001,150005,1000
+Fixed Offset,300011,75000,5001,150005,2005
+
+
+Experiment Type,List Size,Cycle Start,Cycle Length,Steps,Execution Time (microseconds)
+Random Offset,100001,7621,1001,50000,0
+Random Offset,100001,3062,2001,50000,1003
+Random Offset,100001,13193,5001,50000,1000
+Random Offset,200003,12299,1001,100001,1001
+Random Offset,200003,17345,2001,100001,0
+Random Offset,200003,1052,5001,100001,1999
+Random Offset,300011,19207,1001,150005,1002
+Random Offset,300011,12033,2001,150005,1001
+Random Offset,300011,9940,5001,150005,2004
+Random Offset,100001,7621,1001,50000,999
+Random Offset,100001,3062,2001,50000,0
+Random Offset,100001,13193,5001,50000,1003
+Random Offset,200003,12299,1001,100001,0
+Random Offset,200003,17345,2001,100001,1001
+Random Offset,200003,1052,5001,100001,998
+Random Offset,300011,19207,1001,150005,1002
+Random Offset,300011,12033,2001,150005,1000
+Random Offset,300011,9940,5001,150005,3017
+Random Offset,100001,7624,1001,50000,0
+Random Offset,100001,13810,2001,50000,0
+Random Offset,100001,31057,5001,50000,1001
+Random Offset,200003,3595,1001,100001,1000
+Random Offset,200003,27659,2001,100001,999
+Random Offset,200003,4979,5001,100001,1001
+Random Offset,300011,22320,1001,150005,1000
+Random Offset,300011,9105,2001,150005,998
+Random Offset,300011,26452,5001,150005,1002
+Random Offset,100001,7624,1001,50000,0
+Random Offset,100001,13810,2001,50000,1000
+Random Offset,100001,31057,5001,50000,0
+Random Offset,200003,3595,1001,100001,1000
+Random Offset,200003,27659,2001,100001,0
+Random Offset,200003,4979,5001,100001,1000
+Random Offset,300011,22320,1001,150005,1003
+Random Offset,300011,9105,2001,150005,2004
+Random Offset,300011,26452,5001,150005,1001
+Random Offset,100001,7624,1001,50000,0
+Random Offset,100001,13810,2001,50000,0
+Random Offset,100001,31057,5001,50000,1000
+Random Offset,200003,3595,1001,100001,1000
+Random Offset,200003,27659,2001,100001,1002
+Random Offset,200003,4979,5001,100001,3008
+Random Offset,300011,22320,1001,150005,1000
+Random Offset,300011,9105,2001,150005,1000
+Random Offset,300011,26452,5001,150005,1007
+
+
+
+
+
+
