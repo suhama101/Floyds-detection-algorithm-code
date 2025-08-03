@@ -1,17 +1,18 @@
-VS CODE  :     task .json file.
-
-
+task .json :file  of vs code.
+README.md :  empty.
+detail.txt :all infor of all files.
 cycle experiment.cpp  :  create linklist, create cycle, detect cycle , write result to CSV file, delete linklist.
 cycle experiment.h    : node structure for linklist,  function declaration .
 fixed offset experiment. cpp   : all code of fixed
-random offset experiment.csv    :   all code of csv.
+random offset experiment.cpp    :   all code of random.
 main .cpp    :  values of small , medium ,large , extra large.  Some code OF  CSV with fixed and random offset
-
-
 cycle experiment.exe  :   not open .
 my project.exe   :  not open.
-
+Graph.csv : output all run for graph 
+enhanced_3d_scatter_plot.png :graph diagram.
+visualization.py:code to plot graph.
 fixed offset result .csv      :    output result.
 random offset result.csv   :  output result
-final:  output of all data
+final.txt:  output of all data.
+
 
